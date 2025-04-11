@@ -1,0 +1,17 @@
+.carousel-inner .carousel-item img {
+  height: 600px; /* Asegura que todas las imágenes tengan una altura fija */
+  object-fit: cover; /* Mantiene la proporción de las imágenes sin distorsionarlas */
+  width: 100%; /* Asegura que las imágenes ocupen todo el ancho disponible */
+}
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item img {
+    height: 300px; /* Reduce la altura de las imágenes en pantallas más pequeñas */
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-inner .carousel-item img {
+    height: 250px; /* Ajusta aún más la altura en pantallas muy pequeñas */
+  }
+}
